@@ -21,7 +21,7 @@ const App = () => (
     <QueryClientProvider client={queryClient}>
       <CartProvider>
         <ToastContainer />
-        <BrowserRouter>
+        <BrowserRouter basename="/Ideal-Cafe">
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/menu" element={<Menu />} />
@@ -33,6 +33,7 @@ const App = () => (
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>
+        <Footer />
       </CartProvider>
     </QueryClientProvider>
   </React.StrictMode>
