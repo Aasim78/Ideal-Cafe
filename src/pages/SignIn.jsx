@@ -256,7 +256,7 @@ const SignIn = () => {
           </div>
         </div>
       </main>
-      <Footer />
+      
     </div>
   );
 };

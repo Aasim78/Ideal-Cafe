@@ -228,7 +228,7 @@ const Menu = () => {
           )}
         </div>
       </main>
-      <Footer />
+      
     </div>
   );
 };

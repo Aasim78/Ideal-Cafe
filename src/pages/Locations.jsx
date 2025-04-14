@@ -178,7 +178,7 @@ const Locations = () => {
           </div>
         </div>
       </main>
-      <Footer />
+
     </div>
   );
 };
