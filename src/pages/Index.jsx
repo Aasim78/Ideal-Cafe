@@ -18,7 +18,7 @@ const Index = () => {
         <Testimonials />
         <Offers />
       </main>
-      <Footer />
+      
     </div>
   );
 };
